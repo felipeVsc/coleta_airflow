@@ -1,0 +1,16 @@
+[2024-01-17T20:11:57.026-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cities_coleta_teste.rio scheduled__2024-01-17T23:10:54.454066+00:00 [queued]>
+[2024-01-17T20:11:57.029-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cities_coleta_teste.rio scheduled__2024-01-17T23:10:54.454066+00:00 [queued]>
+[2024-01-17T20:11:57.029-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-17T20:11:57.040-0300] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): rio> on 2024-01-17 23:10:54.454066+00:00
+[2024-01-17T20:11:57.043-0300] {standard_task_runner.py:57} INFO - Started process 93830 to run task
+[2024-01-17T20:11:57.045-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cities_coleta_teste', 'rio', 'scheduled__2024-01-17T23:10:54.454066+00:00', '--job-id', '2702', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpx997aa3e']
+[2024-01-17T20:11:57.046-0300] {standard_task_runner.py:85} INFO - Job 2702: Subtask rio
+[2024-01-17T20:11:57.063-0300] {task_command.py:416} INFO - Running <TaskInstance: cities_coleta_teste.rio scheduled__2024-01-17T23:10:54.454066+00:00 [running]> on host desktop
+[2024-01-17T20:11:57.089-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='datasetpibic@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cities_coleta_teste' AIRFLOW_CTX_TASK_ID='rio' AIRFLOW_CTX_EXECUTION_DATE='2024-01-17T23:10:54.454066+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-17T23:10:54.454066+00:00'
+[2024-01-17T20:11:59.393-0300] {logging_mixin.py:154} INFO - Tamanho: 5946
+[2024-01-17T20:11:59.396-0300] {logging_mixin.py:154} INFO - Called | 1705533119.393654 | rj
+[2024-01-17T20:11:59.406-0300] {logging_mixin.py:154} INFO - SAVING FILE rj
+[2024-01-17T20:11:59.407-0300] {python.py:194} INFO - Done. Returned value was: None
+[2024-01-17T20:11:59.409-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=cities_coleta_teste, task_id=rio, execution_date=20240117T231054, start_date=20240117T231157, end_date=20240117T231159
+[2024-01-17T20:11:59.460-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-17T20:11:59.474-0300] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

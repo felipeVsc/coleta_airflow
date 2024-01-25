@@ -1,0 +1,18 @@
+[2024-01-14T17:50:24.519-0300] {processor.py:157} INFO - Started process (PID=30516) to work on /home/felipe/airflow/dags/dagorg.py
+[2024-01-14T17:50:24.520-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dagorg.py for tasks to queue
+[2024-01-14T17:50:24.520-0300] {logging_mixin.py:154} INFO - [2024-01-14T17:50:24.520-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dagorg.py
+[2024-01-14T17:50:24.885-0300] {logging_mixin.py:154} INFO - true
+[2024-01-14T17:50:24.885-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-14T17:50:25.520-0300] {logging_mixin.py:154} INFO - Called | 1705265425.517949 | sp
+[2024-01-14T17:50:25.520-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-14T17:50:30.480-0300] {logging_mixin.py:154} INFO - Called | 1705265430.478777 | df
+[2024-01-14T17:50:30.481-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2024-01-14T17:50:32.907-0300] {logging_mixin.py:154} INFO - Tamanho: 3117
+[2024-01-14T17:50:32.909-0300] {logging_mixin.py:154} INFO - Called | 1705265432.9077768 | rj
+[2024-01-14T17:50:32.914-0300] {logging_mixin.py:154} INFO - SAVING FILE rj
+[2024-01-14T17:50:34.198-0300] {logging_mixin.py:154} INFO - Called | 1705265434.1974547 | cwb
+[2024-01-14T17:50:34.198-0300] {logging_mixin.py:154} INFO - SAVING FILE cwb
+[2024-01-14T17:50:34.201-0300] {processor.py:839} INFO - DAG(s) dict_keys(['cities_rj']) retrieved from /home/felipe/airflow/dags/dagorg.py
+[2024-01-14T17:50:34.204-0300] {logging_mixin.py:154} INFO - [2024-01-14T17:50:34.204-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-14T17:50:34.216-0300] {logging_mixin.py:154} INFO - [2024-01-14T17:50:34.216-0300] {dag.py:3722} INFO - Setting next_dagrun for cities_rj to 2024-01-14T20:49:34.216231+00:00, run_after=2024-01-14T20:50:34.216231+00:00
+[2024-01-14T17:50:34.259-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dagorg.py took 9.742 seconds

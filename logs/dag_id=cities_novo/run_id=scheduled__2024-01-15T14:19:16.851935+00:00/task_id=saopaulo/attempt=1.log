@@ -1,0 +1,17 @@
+[2024-01-15T11:20:31.074-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cities_novo.saopaulo scheduled__2024-01-15T14:19:16.851935+00:00 [queued]>
+[2024-01-15T11:20:31.076-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cities_novo.saopaulo scheduled__2024-01-15T14:19:16.851935+00:00 [queued]>
+[2024-01-15T11:20:31.076-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-15T11:20:31.082-0300] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): saopaulo> on 2024-01-15 14:19:16.851935+00:00
+[2024-01-15T11:20:31.085-0300] {standard_task_runner.py:57} INFO - Started process 21997 to run task
+[2024-01-15T11:20:31.087-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cities_novo', 'saopaulo', 'scheduled__2024-01-15T14:19:16.851935+00:00', '--job-id', '199', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpvpei7dxv']
+[2024-01-15T11:20:31.088-0300] {standard_task_runner.py:85} INFO - Job 199: Subtask saopaulo
+[2024-01-15T11:20:31.104-0300] {task_command.py:416} INFO - Running <TaskInstance: cities_novo.saopaulo scheduled__2024-01-15T14:19:16.851935+00:00 [running]> on host desktop
+[2024-01-15T11:20:31.131-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='datasetpibic@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cities_novo' AIRFLOW_CTX_TASK_ID='saopaulo' AIRFLOW_CTX_EXECUTION_DATE='2024-01-15T14:19:16.851935+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-15T14:19:16.851935+00:00'
+[2024-01-15T11:20:31.284-0300] {logging_mixin.py:154} INFO - true
+[2024-01-15T11:20:31.284-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-15T11:20:32.286-0300] {logging_mixin.py:154} INFO - Called | 1705328432.2807548 | sp
+[2024-01-15T11:20:32.311-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-15T11:20:32.313-0300] {python.py:194} INFO - Done. Returned value was: None
+[2024-01-15T11:20:32.316-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=cities_novo, task_id=saopaulo, execution_date=20240115T141916, start_date=20240115T142031, end_date=20240115T142032
+[2024-01-15T11:20:32.421-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-15T11:20:32.433-0300] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

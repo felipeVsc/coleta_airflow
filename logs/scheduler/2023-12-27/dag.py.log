@@ -1,0 +1,364 @@
+[2023-12-27T14:18:24.884-0300] {processor.py:157} INFO - Started process (PID=10618) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:18:24.884-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:18:24.885-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:18:24.885-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:18:26.173-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:18:30.936-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:18:31.217-0300] {logging_mixin.py:154} INFO - rio - Error: Expecting value: line 1 column 1 (char 0)
+[2023-12-27T14:18:31.218-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:18:31.217-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 27, in rio
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 7, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 34, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 32, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:18:31.219-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:18:31.247-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 6.365 seconds
+[2023-12-27T14:19:20.915-0300] {processor.py:157} INFO - Started process (PID=10779) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:19:20.916-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:19:20.916-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:19:20.916-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:19:22.210-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:19:22.695-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:19:22.979-0300] {logging_mixin.py:154} INFO - rio - Error: Expecting value: line 1 column 1 (char 0)
+[2023-12-27T14:19:22.981-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:19:22.980-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 27, in rio
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 7, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 34, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 32, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:19:22.982-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:19:23.022-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 2.109 seconds
+[2023-12-27T14:20:01.599-0300] {processor.py:157} INFO - Started process (PID=10958) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:20:01.631-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:20:01.632-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:20:01.631-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:20:02.839-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:20:03.226-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:20:03.519-0300] {logging_mixin.py:154} INFO - rio - Error: Expecting value: line 1 column 1 (char 0)
+[2023-12-27T14:20:03.521-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:20:03.519-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 27, in rio
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 7, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 34, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 32, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:20:03.522-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:20:03.543-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 1.947 seconds
+[2023-12-27T14:20:40.221-0300] {processor.py:157} INFO - Started process (PID=11098) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:20:40.223-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:20:40.223-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:20:40.223-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:20:41.409-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:20:41.838-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:20:42.130-0300] {logging_mixin.py:154} INFO - rio - Error: Expecting value: line 1 column 1 (char 0)
+[2023-12-27T14:20:42.132-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:20:42.130-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 27, in rio
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 7, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 34, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 32, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:20:42.133-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:20:42.173-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 1.954 seconds
+[2023-12-27T14:21:19.301-0300] {processor.py:157} INFO - Started process (PID=11362) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:21:19.301-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:21:19.302-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:21:19.301-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:21:20.668-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:21:21.590-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:21:21.882-0300] {logging_mixin.py:154} INFO - rio - Error: Expecting value: line 1 column 1 (char 0)
+[2023-12-27T14:21:21.969-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:21:21.882-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 27, in rio
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 7, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 34, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 32, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:21:21.970-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:21:21.988-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 2.689 seconds
+[2023-12-27T14:22:08.575-0300] {processor.py:157} INFO - Started process (PID=11643) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:22:08.578-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:22:08.578-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:22:08.578-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:22:10.141-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:22:12.120-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:22:12.410-0300] {logging_mixin.py:154} INFO - rio - Error: Expecting value: line 1 column 1 (char 0)
+[2023-12-27T14:22:12.468-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:22:12.410-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 27, in rio
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 7, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 34, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 32, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:22:12.470-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:22:12.626-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 4.053 seconds
+[2023-12-27T14:23:00.300-0300] {processor.py:157} INFO - Started process (PID=12498) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:23:00.332-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:23:00.332-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:23:00.332-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:23:01.551-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:23:02.046-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:23:26.300-0300] {logging_mixin.py:154} INFO - rio - Error: 'dataHora'
+[2023-12-27T14:23:26.301-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:23:26.300-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 29, in rio
+    processed_response = process_response(response)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 19, in process_response
+    'tempo_captura' : vs['dataHora'],
+                      ~~^^^^^^^^^^^^
+KeyError: 'dataHora'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 35, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 33, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:23:26.405-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:23:26.443-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 26.146 seconds
+[2023-12-27T14:24:31.133-0300] {processor.py:157} INFO - Started process (PID=12778) to work on /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:24:31.134-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2023-12-27T14:24:31.134-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:24:31.134-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:24:33.130-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2023-12-27T14:24:33.578-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2023-12-27T14:24:54.720-0300] {logging_mixin.py:154} INFO - rio - Error: 'dataHora'
+[2023-12-27T14:24:54.753-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:24:54.721-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/rio.py", line 29, in rio
+    processed_response = process_response(response)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/airflow/dags/cities/rio.py", line 19, in process_response
+    'tempo_captura' : vs['dataHora'],
+                      ~~^^^^^^^^^^^^
+KeyError: 'dataHora'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 9, in <module>
+    from cities.rio import rio
+  File "/home/felipe/airflow/dags/cities/rio.py", line 35, in <module>
+    rio()
+  File "/home/felipe/airflow/dags/cities/rio.py", line 33, in rio
+    raise ValueError('Erro em RJ!')
+ValueError: Erro em RJ!
+[2023-12-27T14:24:54.865-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2023-12-27T14:24:54.934-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 23.802 seconds

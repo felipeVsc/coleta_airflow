@@ -1,0 +1,15 @@
+[2024-01-17T16:01:39.836-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cities_coleta_teste.df scheduled__2024-01-17T19:00:27.502276+00:00 [queued]>
+[2024-01-17T16:01:39.839-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cities_coleta_teste.df scheduled__2024-01-17T19:00:27.502276+00:00 [queued]>
+[2024-01-17T16:01:39.839-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-17T16:01:39.848-0300] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): df> on 2024-01-17 19:00:27.502276+00:00
+[2024-01-17T16:01:39.852-0300] {standard_task_runner.py:57} INFO - Started process 46306 to run task
+[2024-01-17T16:01:39.854-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cities_coleta_teste', 'df', 'scheduled__2024-01-17T19:00:27.502276+00:00', '--job-id', '1701', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpn9_s5rcx']
+[2024-01-17T16:01:39.855-0300] {standard_task_runner.py:85} INFO - Job 1701: Subtask df
+[2024-01-17T16:01:39.874-0300] {task_command.py:416} INFO - Running <TaskInstance: cities_coleta_teste.df scheduled__2024-01-17T19:00:27.502276+00:00 [running]> on host desktop
+[2024-01-17T16:01:39.902-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='datasetpibic@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cities_coleta_teste' AIRFLOW_CTX_TASK_ID='df' AIRFLOW_CTX_EXECUTION_DATE='2024-01-17T19:00:27.502276+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-17T19:00:27.502276+00:00'
+[2024-01-17T16:01:46.323-0300] {logging_mixin.py:154} INFO - Called | 1705518106.321354 | df
+[2024-01-17T16:01:46.328-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2024-01-17T16:01:46.329-0300] {python.py:194} INFO - Done. Returned value was: None
+[2024-01-17T16:01:46.331-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=cities_coleta_teste, task_id=df, execution_date=20240117T190027, start_date=20240117T190139, end_date=20240117T190146
+[2024-01-17T16:01:46.377-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-17T16:01:46.384-0300] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,2 @@
+[2024-01-24T15:38:19.998-0300] {taskinstance.py:1149} INFO - Dependencies not met for <TaskInstance: cities_coleta_parquet.rio scheduled__2024-01-24T18:37:14.136261+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2024-01-24T15:38:20.000-0300] {local_task_job_runner.py:154} INFO - Task is not able to be run

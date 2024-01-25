@@ -1,0 +1,489 @@
+[2024-01-05T10:30:15.120-0300] {processor.py:157} INFO - Started process (PID=11260) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:30:15.120-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:30:15.120-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:30:15.120-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:30:15.123-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:30:15.122-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/utils/upload.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/utils/upload.py", line 1, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2024-01-05T10:30:15.123-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:30:15.137-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.019 seconds
+[2024-01-05T10:31:32.135-0300] {processor.py:157} INFO - Started process (PID=11412) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:31:32.136-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:31:32.136-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:31:32.136-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:31:32.138-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:31:32.145-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.012 seconds
+[2024-01-05T10:32:19.439-0300] {processor.py:157} INFO - Started process (PID=11463) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:32:19.471-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:32:19.472-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:32:19.472-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:32:19.473-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:32:19.481-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.044 seconds
+[2024-01-05T10:33:21.602-0300] {processor.py:157} INFO - Started process (PID=11546) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:33:21.634-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:33:21.635-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:33:21.635-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:33:21.637-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:33:21.647-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.046 seconds
+[2024-01-05T10:35:09.199-0300] {processor.py:157} INFO - Started process (PID=11674) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:35:09.254-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:35:09.255-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:35:09.254-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:35:09.256-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:35:09.262-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.065 seconds
+[2024-01-05T10:36:26.833-0300] {processor.py:157} INFO - Started process (PID=11758) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:36:26.865-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:36:26.866-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:36:26.865-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:36:26.867-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:36:26.872-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:38:26.900-0300] {processor.py:157} INFO - Started process (PID=12164) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:38:26.932-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:38:26.933-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:38:26.932-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:38:26.934-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:38:26.940-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:39:16.537-0300] {processor.py:157} INFO - Started process (PID=12311) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:39:16.538-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:39:16.538-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:39:16.538-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:39:16.539-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:39:16.545-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.010 seconds
+[2024-01-05T10:42:45.228-0300] {processor.py:157} INFO - Started process (PID=12522) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:42:45.260-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:42:45.261-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:42:45.261-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:42:45.262-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:42:45.268-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T10:43:40.758-0300] {processor.py:157} INFO - Started process (PID=12632) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:43:40.790-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:43:40.791-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:43:40.790-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:43:40.792-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:43:40.799-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:44:34.378-0300] {processor.py:157} INFO - Started process (PID=12756) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:44:34.412-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:44:34.412-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:44:34.412-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:44:34.414-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:44:34.420-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.044 seconds
+[2024-01-05T10:45:21.392-0300] {processor.py:157} INFO - Started process (PID=12856) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:45:21.424-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:45:21.424-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:45:21.424-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:45:21.426-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:45:21.432-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T10:46:04.222-0300] {processor.py:157} INFO - Started process (PID=12977) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:46:04.282-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:46:04.283-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:46:04.282-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:46:04.284-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:46:04.290-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.070 seconds
+[2024-01-05T10:46:55.179-0300] {processor.py:157} INFO - Started process (PID=13067) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:46:55.179-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:46:55.180-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:46:55.180-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:46:55.181-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:46:55.188-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.011 seconds
+[2024-01-05T10:51:36.546-0300] {processor.py:157} INFO - Started process (PID=13365) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:51:36.579-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:51:36.579-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:51:36.579-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:51:36.580-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:51:36.586-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T10:52:28.592-0300] {processor.py:157} INFO - Started process (PID=13538) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:52:28.624-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:52:28.624-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:52:28.624-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:52:28.626-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:52:28.632-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T10:53:08.679-0300] {processor.py:157} INFO - Started process (PID=13634) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:53:08.711-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:53:08.711-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:53:08.711-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:53:08.713-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:53:08.719-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:53:49.262-0300] {processor.py:157} INFO - Started process (PID=13766) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:53:49.294-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:53:49.295-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:53:49.294-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:53:49.296-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:53:49.302-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:54:30.802-0300] {processor.py:157} INFO - Started process (PID=13851) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:54:30.834-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:54:30.835-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:54:30.835-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:54:30.836-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:54:30.843-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:55:12.567-0300] {processor.py:157} INFO - Started process (PID=13928) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:55:12.614-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:55:12.615-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:55:12.615-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:55:12.616-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:55:12.622-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.057 seconds
+[2024-01-05T10:55:52.143-0300] {processor.py:157} INFO - Started process (PID=14002) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:55:52.175-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:55:52.175-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:55:52.175-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:55:52.177-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:55:52.183-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:56:34.551-0300] {processor.py:157} INFO - Started process (PID=14077) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:56:34.583-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:56:34.584-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:56:34.584-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:56:34.585-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:56:34.591-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:57:16.053-0300] {processor.py:157} INFO - Started process (PID=14167) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:57:16.085-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:57:16.086-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:57:16.086-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:57:16.087-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:57:16.093-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:57:56.995-0300] {processor.py:157} INFO - Started process (PID=14246) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:57:57.027-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:57:57.027-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:57:57.027-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:57:57.029-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:57:57.035-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:58:38.540-0300] {processor.py:157} INFO - Started process (PID=14327) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:58:38.572-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:58:38.572-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:58:38.572-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:58:38.574-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:58:38.580-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T10:59:17.391-0300] {processor.py:157} INFO - Started process (PID=14400) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:59:17.423-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:59:17.423-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:59:17.423-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:59:17.425-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:59:17.436-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.047 seconds
+[2024-01-05T10:59:58.872-0300] {processor.py:157} INFO - Started process (PID=14475) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:59:58.904-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T10:59:58.905-0300] {logging_mixin.py:154} INFO - [2024-01-05T10:59:58.904-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:59:58.906-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T10:59:58.913-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:00:43.817-0300] {processor.py:157} INFO - Started process (PID=14560) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:00:43.850-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:00:43.850-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:00:43.850-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:00:43.852-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:00:43.858-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:01:26.302-0300] {processor.py:157} INFO - Started process (PID=14637) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:01:26.359-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:01:26.360-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:01:26.360-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:01:26.361-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:01:26.367-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.068 seconds
+[2024-01-05T11:02:10.340-0300] {processor.py:157} INFO - Started process (PID=14708) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:02:10.372-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:02:10.373-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:02:10.372-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:02:10.374-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:02:10.381-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:02:59.819-0300] {processor.py:157} INFO - Started process (PID=14788) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:02:59.851-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:02:59.852-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:02:59.852-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:02:59.853-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:02:59.860-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:03:43.984-0300] {processor.py:157} INFO - Started process (PID=14872) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:03:44.016-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:03:44.016-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:03:44.016-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:03:44.018-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:03:44.024-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:04:27.814-0300] {processor.py:157} INFO - Started process (PID=14948) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:04:27.847-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:04:27.847-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:04:27.847-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:04:27.848-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:04:27.855-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:05:17.068-0300] {processor.py:157} INFO - Started process (PID=15047) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:05:17.100-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:05:17.100-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:05:17.100-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:05:17.102-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:05:17.108-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:06:02.323-0300] {processor.py:157} INFO - Started process (PID=15135) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:06:02.355-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:06:02.355-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:06:02.355-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:06:02.357-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:06:02.362-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:06:46.445-0300] {processor.py:157} INFO - Started process (PID=15212) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:06:46.477-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:06:46.477-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:06:46.477-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:06:46.479-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:06:46.485-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:07:32.004-0300] {processor.py:157} INFO - Started process (PID=15288) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:07:32.036-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:07:32.037-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:07:32.036-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:07:32.038-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:07:32.045-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:08:15.461-0300] {processor.py:157} INFO - Started process (PID=15370) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:08:15.493-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:08:15.494-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:08:15.494-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:08:15.495-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:08:15.502-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:08:59.346-0300] {processor.py:157} INFO - Started process (PID=15446) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:08:59.378-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:08:59.379-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:08:59.379-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:08:59.380-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:08:59.387-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:09:39.346-0300] {processor.py:157} INFO - Started process (PID=15543) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:09:39.346-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:09:39.347-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:09:39.346-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:09:39.348-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:09:39.354-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.010 seconds
+[2024-01-05T11:10:22.490-0300] {processor.py:157} INFO - Started process (PID=15625) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:10:22.522-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:10:22.522-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:10:22.522-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:10:22.524-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:10:22.530-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:11:05.239-0300] {processor.py:157} INFO - Started process (PID=15700) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:11:05.271-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:11:05.271-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:11:05.271-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:11:05.273-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:11:05.279-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:11:44.646-0300] {processor.py:157} INFO - Started process (PID=15777) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:11:44.678-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:11:44.679-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:11:44.678-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:11:44.681-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:11:44.687-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:12:21.654-0300] {processor.py:157} INFO - Started process (PID=16449) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:12:21.655-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:12:21.655-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:12:21.655-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:12:21.657-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:12:21.663-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.011 seconds
+[2024-01-05T11:13:02.534-0300] {processor.py:157} INFO - Started process (PID=17242) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:13:02.534-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:13:02.534-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:13:02.534-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:13:02.536-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:13:02.541-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.010 seconds
+[2024-01-05T11:13:47.339-0300] {processor.py:157} INFO - Started process (PID=17326) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:13:47.371-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:13:47.371-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:13:47.371-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:13:47.373-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:13:47.379-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:14:26.748-0300] {processor.py:157} INFO - Started process (PID=17399) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:14:26.780-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:14:26.781-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:14:26.780-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:14:26.782-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:14:26.789-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:15:08.664-0300] {processor.py:157} INFO - Started process (PID=17477) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:15:08.696-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:15:08.696-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:15:08.696-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:15:08.697-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:15:08.703-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:15:48.635-0300] {processor.py:157} INFO - Started process (PID=17551) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:15:48.663-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:15:48.664-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:15:48.663-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:15:48.665-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:15:48.671-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.037 seconds
+[2024-01-05T11:16:28.727-0300] {processor.py:157} INFO - Started process (PID=17635) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:16:28.759-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:16:28.760-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:16:28.759-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:16:28.761-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:16:28.767-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:17:15.658-0300] {processor.py:157} INFO - Started process (PID=17719) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:17:15.690-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:17:15.691-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:17:15.690-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:17:15.692-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:17:15.698-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:18:02.983-0300] {processor.py:157} INFO - Started process (PID=17798) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:18:03.015-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:18:03.016-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:18:03.016-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:18:03.017-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:18:03.023-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:18:51.705-0300] {processor.py:157} INFO - Started process (PID=17883) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:18:51.737-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:18:51.738-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:18:51.737-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:18:51.739-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:18:51.745-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:19:40.559-0300] {processor.py:157} INFO - Started process (PID=17962) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:19:40.591-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:19:40.591-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:19:40.591-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:19:40.593-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:19:40.598-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:20:23.142-0300] {processor.py:157} INFO - Started process (PID=18038) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:20:23.174-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:20:23.175-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:20:23.174-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:20:23.176-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:20:23.182-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:21:06.032-0300] {processor.py:157} INFO - Started process (PID=18115) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:21:06.064-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:21:06.065-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:21:06.064-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:21:06.066-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:21:06.072-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:21:44.896-0300] {processor.py:157} INFO - Started process (PID=18189) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:21:44.928-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:21:44.929-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:21:44.929-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:21:44.930-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:21:44.936-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:22:23.909-0300] {processor.py:157} INFO - Started process (PID=18258) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:22:23.941-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:22:23.942-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:22:23.942-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:22:23.943-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:22:23.949-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:23:09.022-0300] {processor.py:157} INFO - Started process (PID=18336) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:23:09.022-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:23:09.023-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:23:09.023-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:23:09.024-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:23:09.030-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.011 seconds
+[2024-01-05T11:23:55.383-0300] {processor.py:157} INFO - Started process (PID=18420) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:23:55.415-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:23:55.415-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:23:55.415-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:23:55.416-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:23:55.422-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:24:38.267-0300] {processor.py:157} INFO - Started process (PID=18496) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:24:38.299-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:24:38.299-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:24:38.299-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:24:38.300-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:24:38.306-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:25:27.770-0300] {processor.py:157} INFO - Started process (PID=18616) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:25:27.802-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:25:27.802-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:25:27.802-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:25:27.804-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:25:27.809-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:26:11.963-0300] {processor.py:157} INFO - Started process (PID=18697) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:26:11.995-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:26:11.996-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:26:11.996-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:26:11.997-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:26:12.003-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:27:00.385-0300] {processor.py:157} INFO - Started process (PID=18777) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:27:00.417-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:27:00.418-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:27:00.418-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:27:00.419-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:27:00.425-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:27:53.022-0300] {processor.py:157} INFO - Started process (PID=18860) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:27:53.054-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:27:53.054-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:27:53.054-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:27:53.055-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:27:53.061-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:28:44.283-0300] {processor.py:157} INFO - Started process (PID=18944) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:28:44.315-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:28:44.316-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:28:44.315-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:28:44.317-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:28:44.323-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:29:36.135-0300] {processor.py:157} INFO - Started process (PID=19026) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:29:36.196-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:29:36.197-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:29:36.197-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:29:36.198-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:29:36.204-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.071 seconds
+[2024-01-05T11:30:19.151-0300] {processor.py:157} INFO - Started process (PID=19106) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:30:19.183-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:30:19.184-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:30:19.184-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:30:19.185-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:30:19.191-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:30:59.110-0300] {processor.py:157} INFO - Started process (PID=19198) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:30:59.142-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:30:59.143-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:30:59.143-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:30:59.144-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:30:59.150-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:31:39.387-0300] {processor.py:157} INFO - Started process (PID=19276) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:31:39.419-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:31:39.419-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:31:39.419-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:31:39.421-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:31:39.427-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:32:28.673-0300] {processor.py:157} INFO - Started process (PID=19352) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:32:28.705-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:32:28.706-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:32:28.706-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:32:28.707-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:32:28.713-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:33:17.314-0300] {processor.py:157} INFO - Started process (PID=19437) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:33:17.346-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:33:17.347-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:33:17.346-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:33:17.348-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:33:17.354-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:34:07.835-0300] {processor.py:157} INFO - Started process (PID=19534) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:34:07.867-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:34:07.867-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:34:07.867-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:34:07.868-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:34:07.874-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:34:57.230-0300] {processor.py:157} INFO - Started process (PID=19634) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:34:57.231-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:34:57.231-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:34:57.231-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:34:57.232-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:34:57.238-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.010 seconds
+[2024-01-05T11:35:46.718-0300] {processor.py:157} INFO - Started process (PID=19722) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:35:46.750-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:35:46.751-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:35:46.751-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:35:46.752-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:35:46.758-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:36:36.175-0300] {processor.py:157} INFO - Started process (PID=19818) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:36:36.217-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:36:36.218-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:36:36.217-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:36:36.219-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:36:36.225-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.052 seconds
+[2024-01-05T11:37:26.114-0300] {processor.py:157} INFO - Started process (PID=19915) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:37:26.146-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:37:26.147-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:37:26.147-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:37:26.148-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:37:26.154-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:38:10.359-0300] {processor.py:157} INFO - Started process (PID=20000) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:38:10.392-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:38:10.392-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:38:10.392-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:38:10.393-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:38:10.400-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:38:50.502-0300] {processor.py:157} INFO - Started process (PID=20080) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:38:50.534-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:38:50.535-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:38:50.535-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:38:50.536-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:38:50.543-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:39:30.246-0300] {processor.py:157} INFO - Started process (PID=20152) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:39:30.278-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:39:30.278-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:39:30.278-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:39:30.280-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:39:30.286-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:40:12.659-0300] {processor.py:157} INFO - Started process (PID=20229) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:40:12.691-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:40:12.691-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:40:12.691-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:40:12.693-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:40:12.699-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:40:58.773-0300] {processor.py:157} INFO - Started process (PID=20303) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:40:58.805-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:40:58.806-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:40:58.806-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:40:58.807-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:40:58.813-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:41:48.175-0300] {processor.py:157} INFO - Started process (PID=20384) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:41:48.207-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:41:48.208-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:41:48.208-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:41:48.209-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:41:48.216-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:42:31.902-0300] {processor.py:157} INFO - Started process (PID=20462) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:42:31.934-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:42:31.935-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:42:31.934-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:42:31.936-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:42:31.942-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:43:11.406-0300] {processor.py:157} INFO - Started process (PID=20535) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:43:11.438-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:43:11.438-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:43:11.438-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:43:11.440-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:43:11.445-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:43:51.948-0300] {processor.py:157} INFO - Started process (PID=20613) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:43:51.980-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:43:51.981-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:43:51.981-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:43:51.982-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:43:51.989-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:44:40.585-0300] {processor.py:157} INFO - Started process (PID=20690) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:44:40.617-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:44:40.618-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:44:40.618-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:44:40.619-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:44:40.625-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:45:27.354-0300] {processor.py:157} INFO - Started process (PID=20773) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:45:27.386-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:45:27.387-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:45:27.387-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:45:27.388-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:45:27.394-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:46:14.022-0300] {processor.py:157} INFO - Started process (PID=20846) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:46:14.055-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:46:14.055-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:46:14.055-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:46:14.057-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:46:14.063-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:47:06.259-0300] {processor.py:157} INFO - Started process (PID=20927) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:47:06.291-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:47:06.292-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:47:06.291-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:47:06.293-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:47:06.299-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds
+[2024-01-05T11:47:55.153-0300] {processor.py:157} INFO - Started process (PID=21005) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:47:55.186-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:47:55.186-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:47:55.186-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:47:55.187-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:47:55.194-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.043 seconds
+[2024-01-05T11:48:50.083-0300] {processor.py:157} INFO - Started process (PID=21097) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:48:50.084-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:48:50.084-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:48:50.084-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:48:50.086-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:48:50.092-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.011 seconds
+[2024-01-05T11:49:40.397-0300] {processor.py:157} INFO - Started process (PID=21180) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:49:40.399-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:49:40.399-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:49:40.399-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:49:40.401-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:49:40.407-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.013 seconds
+[2024-01-05T11:50:26.103-0300] {processor.py:157} INFO - Started process (PID=21257) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:50:26.135-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:50:26.136-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:50:26.136-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:50:26.137-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:50:26.143-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:51:10.216-0300] {processor.py:157} INFO - Started process (PID=21348) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:51:10.248-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:51:10.249-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:51:10.248-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:51:10.250-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:51:10.256-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.041 seconds
+[2024-01-05T11:51:55.294-0300] {processor.py:157} INFO - Started process (PID=21448) to work on /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:51:55.326-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2024-01-05T11:51:55.327-0300] {logging_mixin.py:154} INFO - [2024-01-05T11:51:55.327-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:51:55.328-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2024-01-05T11:51:55.334-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.042 seconds

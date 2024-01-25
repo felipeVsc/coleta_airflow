@@ -1,0 +1,21 @@
+[2024-01-11T15:04:47.222-0300] {processor.py:157} INFO - Started process (PID=10062) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:04:47.222-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-01-11T15:04:47.223-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:04:47.223-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:04:47.228-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:04:47.239-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:04:47.239-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-11T15:04:47.251-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:04:47.251-0300] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2024-01-10T00:00:00+00:00, run_after=2024-01-11T00:00:00+00:00
+[2024-01-11T15:04:47.292-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.072 seconds
+[2024-01-11T15:06:02.698-0300] {processor.py:157} INFO - Started process (PID=10193) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:06:02.730-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-01-11T15:06:02.731-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:06:02.731-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:06:02.736-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:06:02.746-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:06:02.746-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-11T15:06:02.756-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:06:02.756-0300] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2024-01-10T00:00:00+00:00, run_after=2024-01-11T00:00:00+00:00
+[2024-01-11T15:06:02.774-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.078 seconds
+[2024-01-11T15:07:18.170-0300] {processor.py:157} INFO - Started process (PID=10308) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:07:18.171-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-01-11T15:07:18.172-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:07:18.171-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:07:18.177-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-01-11T15:07:18.187-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:07:18.187-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-11T15:07:18.198-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:07:18.198-0300] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2024-01-10T00:00:00+00:00, run_after=2024-01-11T00:00:00+00:00
+[2024-01-11T15:07:18.208-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds

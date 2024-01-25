@@ -1,0 +1,17 @@
+[2024-01-19T15:54:21.010-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cities_coleta_parquet.saopaulo scheduled__2024-01-19T18:53:13.585557+00:00 [queued]>
+[2024-01-19T15:54:21.012-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cities_coleta_parquet.saopaulo scheduled__2024-01-19T18:53:13.585557+00:00 [queued]>
+[2024-01-19T15:54:21.012-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-01-19T15:54:21.026-0300] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): saopaulo> on 2024-01-19 18:53:13.585557+00:00
+[2024-01-19T15:54:21.030-0300] {standard_task_runner.py:57} INFO - Started process 29548 to run task
+[2024-01-19T15:54:21.032-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cities_coleta_parquet', 'saopaulo', 'scheduled__2024-01-19T18:53:13.585557+00:00', '--job-id', '3175', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpkb3moh64']
+[2024-01-19T15:54:21.032-0300] {standard_task_runner.py:85} INFO - Job 3175: Subtask saopaulo
+[2024-01-19T15:54:21.058-0300] {task_command.py:416} INFO - Running <TaskInstance: cities_coleta_parquet.saopaulo scheduled__2024-01-19T18:53:13.585557+00:00 [running]> on host desktop
+[2024-01-19T15:54:21.121-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='datasetpibic@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cities_coleta_parquet' AIRFLOW_CTX_TASK_ID='saopaulo' AIRFLOW_CTX_EXECUTION_DATE='2024-01-19T18:53:13.585557+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-19T18:53:13.585557+00:00'
+[2024-01-19T15:54:21.396-0300] {logging_mixin.py:154} INFO - true
+[2024-01-19T15:54:21.396-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-19T15:54:22.455-0300] {logging_mixin.py:154} INFO - Called | 1705690462.4510016 | sp
+[2024-01-19T15:54:22.498-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-19T15:54:22.499-0300] {python.py:194} INFO - Done. Returned value was: None
+[2024-01-19T15:54:22.502-0300] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=cities_coleta_parquet, task_id=saopaulo, execution_date=20240119T185313, start_date=20240119T185421, end_date=20240119T185422
+[2024-01-19T15:54:22.526-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-19T15:54:22.539-0300] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

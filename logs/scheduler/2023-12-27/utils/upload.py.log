@@ -1,0 +1,70 @@
+[2023-12-27T14:19:18.453-0300] {processor.py:157} INFO - Started process (PID=10765) to work on /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:19:18.453-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2023-12-27T14:19:18.454-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:19:18.454-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:19:18.456-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:19:18.455-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/utils/upload.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/utils/upload.py", line 1, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2023-12-27T14:19:18.456-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:19:18.497-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.046 seconds
+[2023-12-27T14:20:20.818-0300] {processor.py:157} INFO - Started process (PID=11044) to work on /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:20:20.819-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2023-12-27T14:20:20.819-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:20:20.819-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:20:20.821-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:20:20.821-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/utils/upload.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/utils/upload.py", line 1, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2023-12-27T14:20:20.821-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:20:20.832-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.015 seconds
+[2023-12-27T14:21:16.019-0300] {processor.py:157} INFO - Started process (PID=11309) to work on /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:21:16.020-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2023-12-27T14:21:16.020-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:21:16.020-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:21:16.024-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:21:16.022-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/utils/upload.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/utils/upload.py", line 1, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2023-12-27T14:21:16.024-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:21:16.037-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.019 seconds
+[2023-12-27T14:22:34.400-0300] {processor.py:157} INFO - Started process (PID=12078) to work on /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:22:34.401-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2023-12-27T14:22:34.401-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:22:34.401-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:22:34.404-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:22:34.403-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/utils/upload.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/utils/upload.py", line 1, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2023-12-27T14:22:34.404-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:22:34.414-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.015 seconds
+[2023-12-27T14:24:28.863-0300] {processor.py:157} INFO - Started process (PID=12765) to work on /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:24:28.863-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/utils/upload.py for tasks to queue
+[2023-12-27T14:24:28.864-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:24:28.864-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:24:28.870-0300] {logging_mixin.py:154} INFO - [2023-12-27T14:24:28.865-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/utils/upload.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/utils/upload.py", line 1, in <module>
+    from pydrive.drive import GoogleDrive
+ModuleNotFoundError: No module named 'pydrive'
+[2023-12-27T14:24:28.870-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/utils/upload.py
+[2023-12-27T14:24:28.886-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/utils/upload.py took 0.025 seconds

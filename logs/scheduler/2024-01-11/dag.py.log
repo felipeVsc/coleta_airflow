@@ -1,0 +1,341 @@
+[2024-01-11T15:03:36.657-0300] {processor.py:157} INFO - Started process (PID=9915) to work on /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:03:36.658-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2024-01-11T15:03:36.659-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:03:36.658-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:03:37.003-0300] {logging_mixin.py:154} INFO - true
+[2024-01-11T15:03:37.004-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-11T15:03:37.897-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-11T15:03:39.787-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2024-01-11T15:03:42.365-0300] {logging_mixin.py:154} INFO - SAVING FILE rj
+[2024-01-11T15:04:06.660-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:04:06.660-0300] {timeout.py:68} ERROR - Process timed out, PID: 9915
+[2024-01-11T15:04:06.660-0300] {logging_mixin.py:154} INFO - curitiba - Error: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 9915
+[2024-01-11T15:04:06.662-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:04:06.661-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 43, in curitiba
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 6, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 9915
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 8, in <module>
+    from cities.curitiba import curitiba
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 50, in <module>
+    curitiba()
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 48, in curitiba
+    raise ValueError('Erro em Cwb!')
+ValueError: Erro em Cwb!
+[2024-01-11T15:04:06.664-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:04:06.704-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 30.049 seconds
+[2024-01-11T15:04:52.169-0300] {processor.py:157} INFO - Started process (PID=10088) to work on /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:04:52.201-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2024-01-11T15:04:52.202-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:04:52.202-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:04:52.543-0300] {logging_mixin.py:154} INFO - true
+[2024-01-11T15:04:52.543-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-11T15:04:53.439-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-11T15:04:53.961-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2024-01-11T15:04:56.463-0300] {logging_mixin.py:154} INFO - SAVING FILE rj
+[2024-01-11T15:05:22.203-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:05:22.203-0300] {timeout.py:68} ERROR - Process timed out, PID: 10088
+[2024-01-11T15:05:22.204-0300] {logging_mixin.py:154} INFO - curitiba - Error: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 10088
+[2024-01-11T15:05:22.206-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:05:22.204-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 43, in curitiba
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 6, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 10088
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 8, in <module>
+    from cities.curitiba import curitiba
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 50, in <module>
+    curitiba()
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 48, in curitiba
+    raise ValueError('Erro em Cwb!')
+ValueError: Erro em Cwb!
+[2024-01-11T15:05:22.209-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:05:22.252-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 30.085 seconds
+[2024-01-11T15:06:07.509-0300] {processor.py:157} INFO - Started process (PID=10199) to work on /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:06:07.541-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2024-01-11T15:06:07.542-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:06:07.541-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:06:07.929-0300] {logging_mixin.py:154} INFO - true
+[2024-01-11T15:06:07.929-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-11T15:06:08.796-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-11T15:06:10.922-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2024-01-11T15:06:14.948-0300] {logging_mixin.py:154} INFO - SAVING FILE rj
+[2024-01-11T15:06:37.543-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:06:37.543-0300] {timeout.py:68} ERROR - Process timed out, PID: 10199
+[2024-01-11T15:06:37.543-0300] {logging_mixin.py:154} INFO - curitiba - Error: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 10199
+[2024-01-11T15:06:37.597-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:06:37.543-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 43, in curitiba
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 6, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 10199
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 8, in <module>
+    from cities.curitiba import curitiba
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 50, in <module>
+    curitiba()
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 48, in curitiba
+    raise ValueError('Erro em Cwb!')
+ValueError: Erro em Cwb!
+[2024-01-11T15:06:37.599-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:06:37.614-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 30.107 seconds
+[2024-01-11T15:07:23.713-0300] {processor.py:157} INFO - Started process (PID=10318) to work on /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:07:23.746-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2024-01-11T15:07:23.746-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:07:23.746-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:07:24.222-0300] {logging_mixin.py:154} INFO - true
+[2024-01-11T15:07:24.222-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-11T15:07:25.031-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-11T15:07:30.431-0300] {logging_mixin.py:154} INFO - SAVING FILE df
+[2024-01-11T15:07:33.744-0300] {logging_mixin.py:154} INFO - SAVING FILE rj
+[2024-01-11T15:07:53.748-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:07:53.748-0300] {timeout.py:68} ERROR - Process timed out, PID: 10318
+[2024-01-11T15:07:53.748-0300] {logging_mixin.py:154} INFO - curitiba - Error: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 10318
+[2024-01-11T15:07:53.750-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:07:53.748-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 43, in curitiba
+    response = req()
+               ^^^^^
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 6, in req
+    response = requests.get(API_URL).json()
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/felipe/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/felipe/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 10318
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/dag.py", line 8, in <module>
+    from cities.curitiba import curitiba
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 50, in <module>
+    curitiba()
+  File "/home/felipe/airflow/dags/cities/curitiba.py", line 48, in curitiba
+    raise ValueError('Erro em Cwb!')
+ValueError: Erro em Cwb!
+[2024-01-11T15:07:53.751-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:07:53.789-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/dag.py took 30.077 seconds
+[2024-01-11T15:09:20.847-0300] {processor.py:157} INFO - Started process (PID=10522) to work on /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:09:20.879-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/dag.py for tasks to queue
+[2024-01-11T15:09:20.879-0300] {logging_mixin.py:154} INFO - [2024-01-11T15:09:20.879-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/dag.py
+[2024-01-11T15:09:21.230-0300] {logging_mixin.py:154} INFO - true
+[2024-01-11T15:09:21.230-0300] {logging_mixin.py:154} INFO - <Response [200]>
+[2024-01-11T15:09:22.114-0300] {logging_mixin.py:154} INFO - SAVING FILE sp
+[2024-01-11T15:09:26.426-0300] {logging_mixin.py:154} INFO - SAVING FILE df

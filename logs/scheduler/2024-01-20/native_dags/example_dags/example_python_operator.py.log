@@ -1,0 +1,1024 @@
+[2024-01-19T21:00:15.230-0300] {processor.py:157} INFO - Started process (PID=86755) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:00:15.230-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:00:15.231-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:00:15.231-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:00:15.236-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:00:15.235-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:00:15.236-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:00:15.246-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:00:15.246-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:00:15.252-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:00:15.252-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:00:15.293-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds
+[2024-01-19T21:01:10.482-0300] {processor.py:157} INFO - Started process (PID=86901) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:01:10.514-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:01:10.514-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:01:10.514-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:01:10.520-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:01:10.520-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:01:10.520-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:01:10.530-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:01:10.530-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:01:10.536-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:01:10.536-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:01:10.554-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:02:00.996-0300] {processor.py:157} INFO - Started process (PID=87063) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:02:01.029-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:02:01.029-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:01.029-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:02:01.034-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:01.034-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:02:01.035-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:02:01.045-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:01.045-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:02:01.051-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:01.051-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:02:01.068-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:02:59.511-0300] {processor.py:157} INFO - Started process (PID=87230) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:02:59.543-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:02:59.544-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:59.543-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:02:59.549-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:59.549-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:02:59.549-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:02:59.560-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:59.560-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:02:59.566-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:02:59.566-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:02:59.583-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:03:53.899-0300] {processor.py:157} INFO - Started process (PID=87399) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:03:53.931-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:03:53.932-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:03:53.932-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:03:53.939-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:03:53.939-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:03:53.939-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:03:53.950-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:03:53.950-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:03:53.956-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:03:53.956-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:03:53.974-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.077 seconds
+[2024-01-19T21:04:50.689-0300] {processor.py:157} INFO - Started process (PID=87567) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:04:50.722-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:04:50.722-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:04:50.722-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:04:50.727-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:04:50.727-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:04:50.728-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:04:50.737-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:04:50.737-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:04:50.743-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:04:50.743-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:04:50.760-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:05:49.640-0300] {processor.py:157} INFO - Started process (PID=87738) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:05:49.672-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:05:49.673-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:05:49.673-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:05:49.678-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:05:49.678-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:05:49.678-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:05:49.688-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:05:49.688-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:05:49.694-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:05:49.694-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:05:49.711-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:06:46.909-0300] {processor.py:157} INFO - Started process (PID=87905) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:06:46.910-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:06:46.910-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:06:46.910-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:06:46.916-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:06:46.915-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:06:46.916-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:06:46.926-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:06:46.926-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:06:46.932-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:06:46.932-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:06:46.943-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.036 seconds
+[2024-01-19T21:07:44.117-0300] {processor.py:157} INFO - Started process (PID=88070) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:07:44.149-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:07:44.150-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:07:44.149-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:07:44.155-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:07:44.154-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:07:44.155-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:07:44.165-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:07:44.165-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:07:44.171-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:07:44.171-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:07:44.183-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2024-01-19T21:08:38.787-0300] {processor.py:157} INFO - Started process (PID=88243) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:08:38.820-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:08:38.820-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:08:38.820-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:08:38.826-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:08:38.825-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:08:38.826-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:08:38.836-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:08:38.836-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:08:38.842-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:08:38.842-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:08:38.859-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-01-19T21:09:38.238-0300] {processor.py:157} INFO - Started process (PID=88418) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:09:38.270-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:09:38.270-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:09:38.270-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:09:38.275-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:09:38.275-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:09:38.276-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:09:38.286-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:09:38.286-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:09:38.292-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:09:38.292-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:09:38.309-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:10:33.685-0300] {processor.py:157} INFO - Started process (PID=88571) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:10:33.685-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:10:33.686-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:10:33.686-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:10:33.691-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:10:33.691-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:10:33.691-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:10:33.702-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:10:33.701-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:10:33.707-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:10:33.707-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:10:33.717-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.034 seconds
+[2024-01-19T21:11:18.986-0300] {processor.py:157} INFO - Started process (PID=88688) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:11:19.018-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:11:19.018-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:11:19.018-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:11:19.024-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:11:19.024-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:11:19.024-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:11:19.034-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:11:19.034-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:11:19.040-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:11:19.040-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:11:19.058-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:12:36.250-0300] {processor.py:157} INFO - Started process (PID=88964) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:12:36.251-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:12:36.251-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:12:36.251-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:12:36.256-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:12:36.256-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:12:36.257-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:12:36.266-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:12:36.266-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:12:36.272-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:12:36.272-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:12:36.282-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.034 seconds
+[2024-01-19T21:13:20.307-0300] {processor.py:157} INFO - Started process (PID=89061) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:13:20.339-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:13:20.340-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:13:20.340-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:13:20.345-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:13:20.345-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:13:20.345-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:13:20.355-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:13:20.355-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:13:20.361-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:13:20.361-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:13:20.378-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:14:16.649-0300] {processor.py:157} INFO - Started process (PID=89241) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:14:16.649-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:14:16.649-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:14:16.649-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:14:16.655-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:14:16.654-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:14:16.655-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:14:16.665-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:14:16.665-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:14:16.671-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:14:16.670-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:14:16.701-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.054 seconds
+[2024-01-19T21:15:17.409-0300] {processor.py:157} INFO - Started process (PID=89412) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:15:17.441-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:15:17.442-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:15:17.442-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:15:17.447-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:15:17.447-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:15:17.447-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:15:17.456-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:15:17.456-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:15:17.462-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:15:17.462-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:15:17.479-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:16:17.685-0300] {processor.py:157} INFO - Started process (PID=89594) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:16:17.698-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:16:17.699-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:17.699-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:16:17.704-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:17.704-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:16:17.704-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:16:17.714-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:17.714-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:16:17.720-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:17.720-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:16:17.858-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.175 seconds
+[2024-01-19T21:16:57.010-0300] {processor.py:157} INFO - Started process (PID=89732) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:16:57.043-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:16:57.043-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:57.043-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:16:57.049-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:57.048-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:16:57.049-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:16:57.059-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:57.059-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:16:57.065-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:16:57.065-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:16:57.083-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:17:46.059-0300] {processor.py:157} INFO - Started process (PID=89892) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:17:46.091-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:17:46.092-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:17:46.092-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:17:46.099-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:17:46.098-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:17:46.099-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:17:46.110-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:17:46.110-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:17:46.116-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:17:46.116-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:17:46.134-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.077 seconds
+[2024-01-19T21:18:50.318-0300] {processor.py:157} INFO - Started process (PID=90082) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:18:50.350-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:18:50.351-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:18:50.351-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:18:50.356-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:18:50.356-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:18:50.356-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:18:50.366-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:18:50.366-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:18:50.372-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:18:50.372-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:18:50.390-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:19:45.485-0300] {processor.py:157} INFO - Started process (PID=90252) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:19:45.517-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:19:45.518-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:19:45.517-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:19:45.523-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:19:45.523-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:19:45.523-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:19:45.533-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:19:45.533-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:19:45.539-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:19:45.539-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:19:45.556-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:20:40.716-0300] {processor.py:157} INFO - Started process (PID=90419) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:20:40.717-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:20:40.717-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:20:40.717-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:20:40.723-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:20:40.722-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:20:40.723-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:20:40.733-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:20:40.733-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:20:40.739-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:20:40.739-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:20:40.749-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.036 seconds
+[2024-01-19T21:21:36.538-0300] {processor.py:157} INFO - Started process (PID=90587) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:21:36.570-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:21:36.571-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:21:36.571-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:21:36.577-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:21:36.577-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:21:36.577-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:21:36.587-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:21:36.587-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:21:36.593-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:21:36.593-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:21:36.611-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-01-19T21:22:21.202-0300] {processor.py:157} INFO - Started process (PID=90682) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:22:21.234-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:22:21.235-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:22:21.234-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:22:21.240-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:22:21.240-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:22:21.241-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:22:21.251-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:22:21.251-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:22:21.257-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:22:21.257-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:22:21.274-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:23:15.982-0300] {processor.py:157} INFO - Started process (PID=90848) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:23:16.014-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:23:16.015-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:23:16.014-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:23:16.020-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:23:16.020-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:23:16.020-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:23:16.030-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:23:16.030-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:23:16.036-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:23:16.036-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:23:16.053-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:24:12.748-0300] {processor.py:157} INFO - Started process (PID=91020) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:24:12.780-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:24:12.780-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:24:12.780-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:24:12.786-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:24:12.786-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:24:12.786-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:24:12.796-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:24:12.796-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:24:12.802-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:24:12.802-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:24:12.819-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:25:08.256-0300] {processor.py:157} INFO - Started process (PID=91198) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:25:08.288-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:25:08.289-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:25:08.289-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:25:08.294-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:25:08.294-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:25:08.295-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:25:08.305-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:25:08.305-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:25:08.311-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:25:08.311-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:25:08.329-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-01-19T21:26:06.798-0300] {processor.py:157} INFO - Started process (PID=91369) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:26:06.830-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:26:06.831-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:06.831-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:26:06.836-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:06.836-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:26:06.836-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:26:06.846-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:06.846-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:26:06.852-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:06.852-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:26:06.869-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:26:59.842-0300] {processor.py:157} INFO - Started process (PID=91534) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:26:59.874-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:26:59.874-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:59.874-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:26:59.880-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:59.880-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:26:59.880-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:26:59.890-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:59.890-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:26:59.896-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:26:59.896-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:26:59.913-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:27:48.483-0300] {processor.py:157} INFO - Started process (PID=91691) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:27:48.515-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:27:48.516-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:27:48.516-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:27:48.521-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:27:48.521-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:27:48.521-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:27:48.531-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:27:48.531-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:27:48.537-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:27:48.537-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:27:48.555-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:28:35.031-0300] {processor.py:157} INFO - Started process (PID=91835) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:28:35.031-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:28:35.032-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:28:35.032-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:28:35.037-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:28:35.037-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:28:35.037-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:28:35.047-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:28:35.047-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:28:35.053-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:28:35.053-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:28:35.063-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.034 seconds
+[2024-01-19T21:29:27.190-0300] {processor.py:157} INFO - Started process (PID=91971) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:29:27.191-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:29:27.192-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:29:27.191-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:29:27.197-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:29:27.197-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:29:27.198-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:29:27.208-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:29:27.208-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:29:27.214-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:29:27.214-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:29:27.225-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.037 seconds
+[2024-01-19T21:30:35.155-0300] {processor.py:157} INFO - Started process (PID=92189) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:30:35.156-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:30:35.157-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:30:35.156-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:30:35.162-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:30:35.162-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:30:35.162-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:30:35.173-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:30:35.172-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:30:35.179-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:30:35.179-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:30:35.189-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.036 seconds
+[2024-01-19T21:31:22.681-0300] {processor.py:157} INFO - Started process (PID=92308) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:31:22.713-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:31:22.714-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:31:22.714-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:31:22.719-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:31:22.719-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:31:22.720-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:31:22.730-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:31:22.730-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:31:22.736-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:31:22.736-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:31:22.753-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:32:21.826-0300] {processor.py:157} INFO - Started process (PID=92480) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:32:21.858-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:32:21.859-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:32:21.858-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:32:21.864-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:32:21.864-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:32:21.864-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:32:21.874-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:32:21.874-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:32:21.880-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:32:21.880-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:32:21.897-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:33:14.627-0300] {processor.py:157} INFO - Started process (PID=92643) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:33:14.659-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:33:14.660-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:33:14.660-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:33:14.665-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:33:14.665-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:33:14.666-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:33:14.676-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:33:14.676-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:33:14.682-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:33:14.682-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:33:14.699-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:34:08.398-0300] {processor.py:157} INFO - Started process (PID=92811) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:34:08.430-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:34:08.431-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:08.430-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:34:08.436-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:08.436-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:34:08.436-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:34:08.446-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:08.446-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:34:08.452-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:08.452-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:34:08.469-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:34:58.973-0300] {processor.py:157} INFO - Started process (PID=92970) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:34:58.974-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:34:58.974-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:58.974-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:34:58.980-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:58.980-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:34:58.980-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:34:58.990-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:58.990-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:34:58.996-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:34:58.996-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:34:59.006-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.034 seconds
+[2024-01-19T21:35:55.133-0300] {processor.py:157} INFO - Started process (PID=93144) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:35:55.165-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:35:55.166-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:35:55.165-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:35:55.171-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:35:55.171-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:35:55.171-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:35:55.182-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:35:55.182-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:35:55.188-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:35:55.188-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:35:55.205-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:36:58.880-0300] {processor.py:157} INFO - Started process (PID=93336) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:36:58.912-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:36:58.913-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:36:58.912-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:36:58.918-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:36:58.918-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:36:58.919-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:36:58.929-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:36:58.928-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:36:58.935-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:36:58.935-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:36:58.952-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:37:57.333-0300] {processor.py:157} INFO - Started process (PID=93504) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:37:57.365-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:37:57.365-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:37:57.365-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:37:57.371-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:37:57.371-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:37:57.371-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:37:57.381-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:37:57.381-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:37:57.387-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:37:57.387-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:37:57.404-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:38:55.469-0300] {processor.py:157} INFO - Started process (PID=93669) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:38:55.501-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:38:55.502-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:38:55.502-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:38:55.507-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:38:55.507-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:38:55.507-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:38:55.517-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:38:55.517-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:38:55.523-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:38:55.522-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:38:55.539-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:39:53.104-0300] {processor.py:157} INFO - Started process (PID=93837) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:39:53.136-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:39:53.137-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:39:53.137-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:39:53.142-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:39:53.142-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:39:53.142-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:39:53.151-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:39:53.151-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:39:53.157-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:39:53.157-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:39:53.171-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2024-01-19T21:40:59.190-0300] {processor.py:157} INFO - Started process (PID=94045) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:40:59.222-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:40:59.223-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:40:59.223-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:40:59.231-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:40:59.230-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:40:59.231-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:40:59.242-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:40:59.242-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:40:59.248-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:40:59.248-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:40:59.258-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2024-01-19T21:41:43.180-0300] {processor.py:157} INFO - Started process (PID=94199) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:41:43.212-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:41:43.213-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:41:43.212-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:41:43.218-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:41:43.218-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:41:43.218-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:41:43.227-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:41:43.227-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:41:43.233-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:41:43.233-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:41:43.247-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2024-01-19T21:42:40.585-0300] {processor.py:157} INFO - Started process (PID=94367) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:42:40.617-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:42:40.618-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:42:40.617-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:42:40.623-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:42:40.623-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:42:40.623-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:42:40.632-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:42:40.632-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:42:40.638-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:42:40.638-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:42:40.655-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:43:24.080-0300] {processor.py:157} INFO - Started process (PID=94469) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:43:24.112-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:43:24.113-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:43:24.112-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:43:24.118-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:43:24.118-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:43:24.118-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:43:24.127-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:43:24.127-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:43:24.132-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:43:24.132-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:43:24.150-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:44:19.594-0300] {processor.py:157} INFO - Started process (PID=94643) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:44:19.626-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:44:19.627-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:44:19.627-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:44:19.632-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:44:19.632-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:44:19.632-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:44:19.642-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:44:19.642-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:44:19.648-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:44:19.648-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:44:19.667-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T21:45:18.604-0300] {processor.py:157} INFO - Started process (PID=94812) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:45:18.636-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:45:18.636-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:45:18.636-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:45:18.642-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:45:18.642-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:45:18.642-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:45:18.651-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:45:18.651-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:45:18.656-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:45:18.656-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:45:18.674-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:46:17.378-0300] {processor.py:157} INFO - Started process (PID=94982) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:46:17.410-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:46:17.410-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:46:17.410-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:46:17.415-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:46:17.415-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:46:17.416-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:46:17.425-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:46:17.425-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:46:17.431-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:46:17.431-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:46:17.448-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:47:18.226-0300] {processor.py:157} INFO - Started process (PID=95166) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:47:18.258-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:47:18.258-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:47:18.258-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:47:18.263-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:47:18.263-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:47:18.264-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:47:18.273-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:47:18.273-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:47:18.278-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:47:18.278-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:47:18.295-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:48:13.396-0300] {processor.py:157} INFO - Started process (PID=95328) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:48:13.429-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:48:13.429-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:48:13.429-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:48:13.434-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:48:13.434-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:48:13.435-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:48:13.444-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:48:13.444-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:48:13.450-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:48:13.450-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:48:13.466-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:49:05.264-0300] {processor.py:157} INFO - Started process (PID=95499) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:49:05.296-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:49:05.297-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:49:05.296-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:49:05.302-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:49:05.302-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:49:05.302-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:49:05.311-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:49:05.311-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:49:05.317-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:49:05.317-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:49:05.334-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:50:01.905-0300] {processor.py:157} INFO - Started process (PID=95661) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:50:01.922-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:50:01.923-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:50:01.922-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:50:01.928-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:50:01.928-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:50:01.928-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:50:01.937-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:50:01.937-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:50:01.943-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:50:01.943-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:50:01.963-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.060 seconds
+[2024-01-19T21:51:01.292-0300] {processor.py:157} INFO - Started process (PID=95844) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:51:01.325-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:51:01.325-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:51:01.325-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:51:01.330-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:51:01.330-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:51:01.331-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:51:01.340-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:51:01.340-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:51:01.346-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:51:01.346-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:51:01.363-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:52:03.319-0300] {processor.py:157} INFO - Started process (PID=96024) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:52:03.351-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:52:03.351-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:03.351-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:52:03.356-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:03.356-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:52:03.357-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:52:03.366-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:03.366-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:52:03.372-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:03.372-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:52:03.389-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:52:47.236-0300] {processor.py:157} INFO - Started process (PID=96175) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:52:47.269-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:52:47.269-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:47.269-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:52:47.274-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:47.274-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:52:47.275-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:52:47.284-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:47.284-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:52:47.289-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:52:47.289-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:52:47.303-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2024-01-19T21:53:42.510-0300] {processor.py:157} INFO - Started process (PID=96350) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:53:42.542-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:53:42.542-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:53:42.542-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:53:42.548-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:53:42.548-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:53:42.548-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:53:42.557-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:53:42.557-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:53:42.563-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:53:42.563-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:53:42.580-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:54:42.157-0300] {processor.py:157} INFO - Started process (PID=96519) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:54:42.158-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:54:42.158-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:54:42.158-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:54:42.163-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:54:42.163-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:54:42.164-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:54:42.173-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:54:42.173-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:54:42.179-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:54:42.179-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:54:42.189-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.033 seconds
+[2024-01-19T21:55:39.041-0300] {processor.py:157} INFO - Started process (PID=96704) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:55:39.047-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:55:39.048-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:55:39.048-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:55:39.053-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:55:39.053-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:55:39.053-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:55:39.063-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:55:39.063-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:55:39.068-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:55:39.068-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:55:39.095-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.057 seconds
+[2024-01-19T21:56:21.469-0300] {processor.py:157} INFO - Started process (PID=96798) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:56:21.501-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:56:21.502-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:56:21.502-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:56:21.507-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:56:21.507-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:56:21.507-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:56:21.516-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:56:21.516-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:56:21.522-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:56:21.522-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:56:21.540-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T21:57:24.908-0300] {processor.py:157} INFO - Started process (PID=96981) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:57:24.941-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:57:24.941-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:57:24.941-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:57:24.946-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:57:24.946-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:57:24.946-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:57:24.956-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:57:24.955-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:57:24.961-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:57:24.961-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:57:24.978-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:58:20.498-0300] {processor.py:157} INFO - Started process (PID=97149) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:58:20.530-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:58:20.531-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:58:20.530-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:58:20.536-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:58:20.536-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:58:20.536-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:58:20.545-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:58:20.545-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:58:20.551-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:58:20.551-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:58:20.568-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T21:59:12.994-0300] {processor.py:157} INFO - Started process (PID=97316) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:59:12.997-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T21:59:12.997-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:59:12.997-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:59:13.002-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:59:13.002-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T21:59:13.002-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T21:59:13.012-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:59:13.011-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T21:59:13.017-0300] {logging_mixin.py:154} INFO - [2024-01-19T21:59:13.017-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T21:59:13.031-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds
+[2024-01-19T22:00:10.456-0300] {processor.py:157} INFO - Started process (PID=97484) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:00:10.457-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:00:10.457-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:00:10.457-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:00:10.462-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:00:10.461-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:00:10.462-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:00:10.471-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:00:10.471-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:00:10.477-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:00:10.477-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:00:10.493-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.038 seconds
+[2024-01-19T22:01:45.954-0300] {processor.py:157} INFO - Started process (PID=97734) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:01:45.986-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:01:45.987-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:01:45.986-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:01:45.992-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:01:45.991-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:01:45.992-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:01:46.001-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:01:46.001-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:01:46.008-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:01:46.008-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:01:46.025-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:02:48.934-0300] {processor.py:157} INFO - Started process (PID=97941) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:02:48.966-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:02:48.967-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:02:48.967-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:02:48.972-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:02:48.972-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:02:48.972-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:02:48.981-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:02:48.981-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:02:48.987-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:02:48.986-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:02:49.004-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.071 seconds
+[2024-01-19T22:03:51.482-0300] {processor.py:157} INFO - Started process (PID=98117) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:03:51.514-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:03:51.515-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:03:51.514-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:03:51.520-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:03:51.519-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:03:51.520-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:03:51.529-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:03:51.529-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:03:51.535-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:03:51.535-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:03:51.552-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:04:52.857-0300] {processor.py:157} INFO - Started process (PID=98296) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:04:52.889-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:04:52.889-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:04:52.889-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:04:52.894-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:04:52.894-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:04:52.895-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:04:52.904-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:04:52.904-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:04:52.910-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:04:52.910-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:04:52.928-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:05:56.518-0300] {processor.py:157} INFO - Started process (PID=98487) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:05:56.550-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:05:56.551-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:05:56.551-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:05:56.556-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:05:56.556-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:05:56.557-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:05:56.567-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:05:56.567-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:05:56.573-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:05:56.573-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:05:56.590-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T22:06:51.109-0300] {processor.py:157} INFO - Started process (PID=98653) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:06:51.141-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:06:51.141-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:06:51.141-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:06:51.146-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:06:51.146-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:06:51.147-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:06:51.157-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:06:51.157-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:06:51.163-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:06:51.163-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:06:51.180-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:07:46.039-0300] {processor.py:157} INFO - Started process (PID=98819) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:07:46.071-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:07:46.072-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:07:46.072-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:07:46.077-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:07:46.077-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:07:46.077-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:07:46.086-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:07:46.086-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:07:46.092-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:07:46.092-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:07:46.109-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:08:43.521-0300] {processor.py:157} INFO - Started process (PID=98993) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:08:43.553-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:08:43.554-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:08:43.554-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:08:43.559-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:08:43.559-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:08:43.559-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:08:43.569-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:08:43.569-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:08:43.575-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:08:43.575-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:08:43.592-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:09:38.918-0300] {processor.py:157} INFO - Started process (PID=99163) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:09:38.951-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:09:38.951-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:09:38.951-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:09:38.957-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:09:38.956-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:09:38.957-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:09:38.967-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:09:38.967-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:09:38.973-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:09:38.973-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:09:38.991-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-01-19T22:10:22.609-0300] {processor.py:157} INFO - Started process (PID=99263) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:10:22.610-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:10:22.610-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:10:22.610-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:10:22.615-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:10:22.615-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:10:22.616-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:10:22.625-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:10:22.625-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:10:22.631-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:10:22.631-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:10:22.641-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.034 seconds
+[2024-01-19T22:11:24.960-0300] {processor.py:157} INFO - Started process (PID=99443) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:11:24.961-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:11:24.961-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:11:24.961-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:11:24.966-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:11:24.966-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:11:24.967-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:11:24.977-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:11:24.977-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:11:24.983-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:11:24.983-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:11:25.000-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-01-19T22:12:18.254-0300] {processor.py:157} INFO - Started process (PID=99608) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:12:18.286-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:12:18.286-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:12:18.286-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:12:18.292-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:12:18.292-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:12:18.292-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:12:18.301-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:12:18.301-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:12:18.307-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:12:18.307-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:12:18.325-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:13:08.473-0300] {processor.py:157} INFO - Started process (PID=99772) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:13:08.505-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:13:08.505-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:08.505-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:13:08.511-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:08.511-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:13:08.511-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:13:08.521-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:08.521-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:13:08.527-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:08.527-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:13:08.546-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-01-19T22:13:56.653-0300] {processor.py:157} INFO - Started process (PID=101174) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:13:56.653-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:13:56.654-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:56.654-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:13:56.659-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:56.659-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:13:56.659-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:13:56.668-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:56.668-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:13:56.674-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:13:56.674-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:13:56.696-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.045 seconds
+[2024-01-19T22:14:54.089-0300] {processor.py:157} INFO - Started process (PID=101364) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:14:54.090-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:14:54.090-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:14:54.090-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:14:54.096-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:14:54.096-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:14:54.096-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:14:54.106-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:14:54.106-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:14:54.112-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:14:54.112-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:14:54.124-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.037 seconds
+[2024-01-19T22:15:58.040-0300] {processor.py:157} INFO - Started process (PID=101560) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:15:58.072-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:15:58.073-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:15:58.072-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:15:58.078-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:15:58.078-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:15:58.078-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:15:58.088-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:15:58.088-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:15:58.094-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:15:58.094-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:15:58.111-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:16:52.601-0300] {processor.py:157} INFO - Started process (PID=101724) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:16:52.633-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:16:52.634-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:16:52.634-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:16:52.639-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:16:52.639-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:16:52.639-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:16:52.649-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:16:52.649-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:16:52.655-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:16:52.655-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:16:52.672-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:17:46.916-0300] {processor.py:157} INFO - Started process (PID=101892) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:17:46.948-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:17:46.948-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:17:46.948-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:17:46.953-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:17:46.953-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:17:46.954-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:17:46.963-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:17:46.963-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:17:46.969-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:17:46.969-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:17:46.987-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:18:45.674-0300] {processor.py:157} INFO - Started process (PID=102067) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:18:45.706-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:18:45.707-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:18:45.706-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:18:45.712-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:18:45.712-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:18:45.712-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:18:45.721-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:18:45.721-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:18:45.727-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:18:45.727-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:18:45.744-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:19:47.858-0300] {processor.py:157} INFO - Started process (PID=102235) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:19:47.890-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:19:47.891-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:19:47.890-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:19:47.895-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:19:47.895-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:19:47.896-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:19:47.905-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:19:47.905-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:19:47.911-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:19:47.911-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:19:47.928-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:20:50.149-0300] {processor.py:157} INFO - Started process (PID=102431) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:20:50.181-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:20:50.181-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:20:50.181-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:20:50.186-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:20:50.186-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:20:50.186-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:20:50.196-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:20:50.196-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:20:50.202-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:20:50.202-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:20:50.219-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:21:54.793-0300] {processor.py:157} INFO - Started process (PID=102613) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:21:54.825-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:21:54.826-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:21:54.825-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:21:54.831-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:21:54.831-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:21:54.831-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:21:54.840-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:21:54.840-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:21:54.846-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:21:54.846-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:21:54.864-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:22:52.603-0300] {processor.py:157} INFO - Started process (PID=102781) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:22:52.635-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:22:52.636-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:22:52.636-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:22:52.642-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:22:52.642-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:22:52.642-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:22:52.652-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:22:52.652-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:22:52.657-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:22:52.657-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:22:52.675-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:24:00.976-0300] {processor.py:157} INFO - Started process (PID=102997) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:24:00.985-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:24:00.986-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:00.985-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:24:00.990-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:00.990-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:24:00.991-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:24:01.000-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:01.000-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:24:01.005-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:01.005-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:24:01.112-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.137 seconds
+[2024-01-19T22:24:48.926-0300] {processor.py:157} INFO - Started process (PID=103148) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:24:48.958-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:24:48.958-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:48.958-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:24:48.963-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:48.963-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:24:48.964-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:24:48.973-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:48.973-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:24:48.979-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:24:48.979-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:24:48.996-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:25:53.123-0300] {processor.py:157} INFO - Started process (PID=103336) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:25:53.125-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:25:53.125-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:25:53.125-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:25:53.131-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:25:53.131-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:25:53.131-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:25:53.141-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:25:53.141-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:25:53.147-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:25:53.147-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:25:53.161-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-01-19T22:26:50.533-0300] {processor.py:157} INFO - Started process (PID=103504) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:26:50.565-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:26:50.566-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:26:50.565-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:26:50.571-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:26:50.571-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:26:50.571-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:26:50.581-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:26:50.581-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:26:50.587-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:26:50.587-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:26:50.604-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:27:41.601-0300] {processor.py:157} INFO - Started process (PID=103665) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:27:41.633-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:27:41.633-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:27:41.633-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:27:41.639-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:27:41.639-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:27:41.639-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:27:41.649-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:27:41.649-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:27:41.655-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:27:41.655-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:27:41.672-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T22:28:32.784-0300] {processor.py:157} INFO - Started process (PID=103803) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:28:32.816-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:28:32.817-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:28:32.817-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:28:32.822-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:28:32.822-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:28:32.822-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:28:32.832-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:28:32.832-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:28:32.838-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:28:32.838-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:28:32.855-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:29:22.329-0300] {processor.py:157} INFO - Started process (PID=103934) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:29:22.361-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:29:22.362-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:29:22.362-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:29:22.367-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:29:22.367-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:29:22.367-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:29:22.377-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:29:22.377-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:29:22.383-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:29:22.383-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:29:22.400-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:30:22.937-0300] {processor.py:157} INFO - Started process (PID=104122) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:30:22.969-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:30:22.969-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:30:22.969-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:30:22.974-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:30:22.974-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:30:22.975-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:30:22.984-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:30:22.984-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:30:22.990-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:30:22.990-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:30:23.007-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:31:18.923-0300] {processor.py:157} INFO - Started process (PID=104288) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:31:18.955-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:31:18.955-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:31:18.955-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:31:18.960-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:31:18.960-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:31:18.960-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:31:18.970-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:31:18.970-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:31:18.976-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:31:18.976-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:31:18.993-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:32:15.201-0300] {processor.py:157} INFO - Started process (PID=104454) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:32:15.233-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:32:15.234-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:32:15.233-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:32:15.238-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:32:15.238-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:32:15.239-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:32:15.249-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:32:15.249-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:32:15.255-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:32:15.255-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:32:15.272-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:33:09.340-0300] {processor.py:157} INFO - Started process (PID=104619) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:33:09.372-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:33:09.373-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:09.372-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:33:09.378-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:09.377-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:33:09.378-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:33:09.388-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:09.388-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:33:09.394-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:09.394-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:33:09.411-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:33:54.873-0300] {processor.py:157} INFO - Started process (PID=104784) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:33:54.905-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:33:54.906-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:54.906-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:33:54.911-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:54.911-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:33:54.911-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:33:54.921-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:54.921-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:33:54.927-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:33:54.927-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:33:54.944-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:34:59.142-0300] {processor.py:157} INFO - Started process (PID=104979) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:34:59.174-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:34:59.175-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:34:59.174-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:34:59.180-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:34:59.180-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:34:59.180-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:34:59.190-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:34:59.190-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:34:59.196-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:34:59.196-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:34:59.213-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:35:54.945-0300] {processor.py:157} INFO - Started process (PID=105151) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:35:54.977-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:35:54.978-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:35:54.977-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:35:54.983-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:35:54.983-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:35:54.983-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:35:54.993-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:35:54.993-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:35:54.999-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:35:54.999-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:35:55.016-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:36:46.853-0300] {processor.py:157} INFO - Started process (PID=105316) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:36:46.885-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:36:46.885-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:36:46.885-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:36:46.891-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:36:46.891-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:36:46.891-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:36:46.901-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:36:46.901-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:36:46.907-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:36:46.907-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:36:46.924-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T22:37:45.581-0300] {processor.py:157} INFO - Started process (PID=105482) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:37:45.613-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:37:45.614-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:37:45.614-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:37:45.619-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:37:45.619-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:37:45.620-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:37:45.630-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:37:45.630-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:37:45.636-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:37:45.636-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:37:45.653-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T22:38:40.121-0300] {processor.py:157} INFO - Started process (PID=105654) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:38:40.153-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:38:40.153-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:38:40.153-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:38:40.159-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:38:40.158-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:38:40.159-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:38:40.168-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:38:40.168-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:38:40.174-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:38:40.174-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:38:40.191-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:39:25.388-0300] {processor.py:157} INFO - Started process (PID=105759) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:39:25.420-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:39:25.421-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:39:25.421-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:39:25.426-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:39:25.426-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:39:25.426-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:39:25.436-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:39:25.436-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:39:25.442-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:39:25.441-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:39:25.459-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:40:23.921-0300] {processor.py:157} INFO - Started process (PID=105926) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:40:23.953-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:40:23.954-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:40:23.953-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:40:23.959-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:40:23.959-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:40:23.959-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:40:23.968-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:40:23.968-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:40:23.974-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:40:23.974-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:40:23.991-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:41:15.368-0300] {processor.py:157} INFO - Started process (PID=106091) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:41:15.401-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:41:15.402-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:41:15.401-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:41:15.409-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:41:15.409-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:41:15.409-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:41:15.422-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:41:15.422-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:41:15.427-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:41:15.427-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:41:15.445-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-01-19T22:42:10.014-0300] {processor.py:157} INFO - Started process (PID=106254) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:42:10.046-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:42:10.046-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:10.046-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:42:10.051-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:10.051-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:42:10.052-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:42:10.061-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:10.061-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:42:10.067-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:10.067-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:42:10.084-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:42:53.956-0300] {processor.py:157} INFO - Started process (PID=106410) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:42:53.988-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:42:53.988-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:53.988-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:42:53.993-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:53.993-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:42:53.994-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:42:54.003-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:54.003-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:42:54.009-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:42:54.009-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:42:54.026-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:43:47.296-0300] {processor.py:157} INFO - Started process (PID=106581) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:43:47.328-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:43:47.329-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:43:47.329-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:43:47.334-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:43:47.334-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:43:47.334-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:43:47.344-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:43:47.344-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:43:47.349-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:43:47.349-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:43:47.367-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:44:41.534-0300] {processor.py:157} INFO - Started process (PID=106748) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:44:41.566-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:44:41.567-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:44:41.567-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:44:41.572-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:44:41.572-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:44:41.572-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:44:41.582-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:44:41.582-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:44:41.588-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:44:41.588-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:44:41.605-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:45:37.421-0300] {processor.py:157} INFO - Started process (PID=106903) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:45:37.422-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:45:37.422-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:45:37.422-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:45:37.427-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:45:37.427-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:45:37.428-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:45:37.437-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:45:37.437-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:45:37.443-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:45:37.443-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:45:37.453-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.033 seconds
+[2024-01-19T22:46:21.617-0300] {processor.py:157} INFO - Started process (PID=107017) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:46:21.649-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:46:21.650-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:46:21.650-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:46:21.655-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:46:21.655-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:46:21.656-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:46:21.665-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:46:21.665-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:46:21.670-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:46:21.670-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:46:21.687-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:47:12.678-0300] {processor.py:157} INFO - Started process (PID=107178) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:47:12.678-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:47:12.679-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:12.678-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:47:12.684-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:12.684-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:47:12.684-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:47:12.694-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:12.694-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:47:12.700-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:12.699-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:47:12.710-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.034 seconds
+[2024-01-19T22:47:57.633-0300] {processor.py:157} INFO - Started process (PID=107332) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:47:57.665-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:47:57.666-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:57.665-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:47:57.671-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:57.671-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:47:57.671-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:47:57.681-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:57.681-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:47:57.686-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:47:57.686-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:47:57.703-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:48:51.994-0300] {processor.py:157} INFO - Started process (PID=107511) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:48:52.026-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:48:52.026-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:48:52.026-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:48:52.031-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:48:52.031-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:48:52.032-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:48:52.041-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:48:52.041-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:48:52.047-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:48:52.047-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:48:52.064-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2024-01-19T22:49:47.088-0300] {processor.py:157} INFO - Started process (PID=107812) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:49:47.120-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:49:47.121-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:49:47.121-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:49:47.126-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:49:47.126-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:49:47.127-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:49:47.137-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:49:47.137-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:49:47.143-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:49:47.143-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:49:47.160-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T22:50:56.064-0300] {processor.py:157} INFO - Started process (PID=108161) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:50:56.096-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:50:56.096-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:50:56.096-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:50:56.102-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:50:56.102-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:50:56.102-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:50:56.112-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:50:56.112-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:50:56.118-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:50:56.118-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:50:56.137-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.076 seconds
+[2024-01-19T22:51:54.932-0300] {processor.py:157} INFO - Started process (PID=108386) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:51:54.946-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:51:54.947-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:51:54.947-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:51:54.952-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:51:54.952-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:51:54.953-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:51:54.963-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:51:54.963-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:51:54.970-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:51:54.969-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:51:54.983-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.052 seconds
+[2024-01-19T22:52:49.379-0300] {processor.py:157} INFO - Started process (PID=108589) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:52:49.412-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:52:49.412-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:52:49.412-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:52:49.417-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:52:49.417-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:52:49.418-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:52:49.428-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:52:49.428-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:52:49.434-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:52:49.434-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:52:49.452-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-01-19T22:53:42.676-0300] {processor.py:157} INFO - Started process (PID=108803) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:53:42.709-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:53:42.709-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:53:42.709-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:53:42.715-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:53:42.715-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:53:42.715-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:53:42.725-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:53:42.725-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:53:42.731-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:53:42.731-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:53:42.745-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.071 seconds
+[2024-01-19T22:54:37.610-0300] {processor.py:157} INFO - Started process (PID=109026) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:54:37.642-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:54:37.643-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:54:37.643-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:54:37.648-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:54:37.648-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:54:37.648-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:54:37.658-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:54:37.658-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:54:37.664-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:54:37.664-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:54:37.681-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-01-19T22:56:14.727-0300] {processor.py:157} INFO - Started process (PID=109489) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:56:14.759-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:56:14.759-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:56:14.759-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:56:14.765-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:56:14.765-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:56:14.765-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:56:14.775-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:56:14.775-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:56:14.781-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:56:14.781-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:56:14.799-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.074 seconds
+[2024-01-19T22:57:05.316-0300] {processor.py:157} INFO - Started process (PID=109649) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:57:05.348-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:57:05.348-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:57:05.348-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:57:05.355-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:57:05.355-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:57:05.355-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:57:05.365-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:57:05.365-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:57:05.372-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:57:05.372-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:57:05.389-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.076 seconds
+[2024-01-19T22:58:00.476-0300] {processor.py:157} INFO - Started process (PID=109832) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:58:00.476-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:58:00.477-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:58:00.477-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:58:00.483-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:58:00.483-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:58:00.484-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:58:00.495-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:58:00.495-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:58:00.501-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:58:00.501-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:58:00.514-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-01-19T22:59:08.049-0300] {processor.py:157} INFO - Started process (PID=110127) to work on /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:59:08.081-0300] {processor.py:829} INFO - Processing file /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-19T22:59:08.082-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:59:08.082-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:59:08.087-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:59:08.087-0300] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-01-19T22:59:08.088-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-19T22:59:08.097-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:59:08.097-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-19T22:59:08.103-0300] {logging_mixin.py:154} INFO - [2024-01-19T22:59:08.103-0300] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-19T22:59:08.121-0300] {processor.py:179} INFO - Processing /home/felipe/.local/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
