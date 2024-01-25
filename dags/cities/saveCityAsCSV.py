@@ -12,14 +12,9 @@ def saveCityAsCSV(city, data):
         if not os.path.exists(f"{dataset_dir}/{city}"):
             os.makedirs(f"{dataset_dir}/{city}")
         print(f"Called | {timestamp} | {city}")
-        df.to_csv(f"{output_dir}/{timestamp}.csv")
-        # df.to_parquet(f"{output_dir}/{timestamp}.parquet")
+        # df.to_csv(f"{output_dir}/{timestamp}.csv")
+        df.to_parquet(f"{output_dir}/{timestamp}.parquet")
 
-        # with open("/home/felipe/airflow/dags/cities/temp_file.txt", 'a') as fp:
-        #     text = f"{city},{timestamp}.csv\n"
-        #     fp.writelines(text)
-
-        
         print(f"SAVING FILE {city}")
     except Exception as e:
         print(f"{city} - Error on save as CSV {timestamp}: {e}")
