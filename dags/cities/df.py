@@ -38,5 +38,3 @@ def df():
     except Exception as e:
         print(f"distrito_federal - Error: {e}")
         raise ValueError('Erro em DF!')
-
-df()
